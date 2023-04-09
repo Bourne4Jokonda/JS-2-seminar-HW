@@ -13,3 +13,14 @@ switch (true) {
   default:
     break;
 }
+
+// Идеальное решение
+// let number = Math.ceil(Math.random() * 31);
+// if (number <= 10) {
+//       alert(`${number} - первая декада`)
+// } else if (number >= 11 && number <=20){
+//       alert(`${number} - вторая декада`)
+// }
+// else {
+//       alert(`${number} - третья декада`)
+// }

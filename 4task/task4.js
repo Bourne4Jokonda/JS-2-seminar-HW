@@ -23,3 +23,9 @@ if(number.length >1){
       const num3 =Math.floor((number%10)/1);
       console.log(`Пользователь ввел число ${number}, в котором ${num1} сотен, ${num2} десятков и ${num3} едениц`);
 }
+
+Идеальное решение
+const units = number%10;
+const tens = Math.trunc(number/10)%10;
+const hundreds = Math.trunc(number/100)%10;
+console.log(`В числе ${number} количество сотен: ${hundreds}, десятков: ${tens}, едениц: ${units}`);
